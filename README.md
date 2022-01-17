@@ -9,10 +9,12 @@ Pre-requisites
 
 To deploy the stack
 
-
+./create.sh $STACK_NAME  infra.yml parameters.json 
 
 To delete the stack
 
-
+./delete.sh $STACK_NAME 
 
 To update existing stack
+./update.sh $STACK_NAME  infra.yml parameters.json
+
